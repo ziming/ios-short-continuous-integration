@@ -36,7 +36,7 @@ func toRoman(_ number: Int) -> String {
                 romanValue += romanChar
             }
 
-            startingValue -= arabicValue * div + 1
+            startingValue -= arabicValue * div
         }
     }
     
